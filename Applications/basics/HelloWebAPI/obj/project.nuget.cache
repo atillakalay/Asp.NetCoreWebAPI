@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "drdh2INu/+2XNN4d8+G880pke/idFTtixFnBfkWfM0v7DWHFu6N3ltGP6MU6j//Yzpj4lZDz34zXfPRmX1XUoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Atilla\\AspNetCoreWebApi\\Applications\\basics\\HelloWebAPI\\HelloWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Atilla\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Atilla\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Atilla\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Atilla\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

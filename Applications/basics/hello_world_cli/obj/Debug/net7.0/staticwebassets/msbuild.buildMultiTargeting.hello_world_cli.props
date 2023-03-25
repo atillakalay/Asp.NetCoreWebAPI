@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\hello_world_cli.props" />
+</Project>
