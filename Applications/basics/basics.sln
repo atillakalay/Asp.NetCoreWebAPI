@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello_world_api_ui", "hello
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello_world_cli", "hello_world_cli\hello_world_cli.csproj", "{505F892E-7E79-4F10-985C-86D43195FE17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebAPI", "HelloWebAPI\HelloWebAPI.csproj", "{B996DE16-4F16-4898-A14C-988CFA6FE1F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebAPI", "HelloWebAPI\HelloWebAPI.csproj", "{B996DE16-4F16-4898-A14C-988CFA6FE1F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApp", "ProductApp\ProductApp.csproj", "{7E92ACC4-3006-4104-950D-E9DB83CB00F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B996DE16-4F16-4898-A14C-988CFA6FE1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B996DE16-4F16-4898-A14C-988CFA6FE1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B996DE16-4F16-4898-A14C-988CFA6FE1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E92ACC4-3006-4104-950D-E9DB83CB00F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E92ACC4-3006-4104-950D-E9DB83CB00F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E92ACC4-3006-4104-950D-E9DB83CB00F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E92ACC4-3006-4104-950D-E9DB83CB00F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
