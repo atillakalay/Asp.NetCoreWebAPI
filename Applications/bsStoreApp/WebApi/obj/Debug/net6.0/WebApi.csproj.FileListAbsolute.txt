@@ -6,7 +6,10 @@ C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\WebApi.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\WebApi.pdb
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -14,6 +17,7 @@ C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -22,6 +26,8 @@ C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -45,6 +51,14 @@ C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Entities.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Presentation.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Repositories.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Services.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Entities.pdb
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Presentation.pdb
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Repositories.pdb
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Services.pdb
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.csproj.AssemblyReference.cache
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.AssemblyInfoInputs.cache
@@ -66,5 +80,3 @@ C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\ref\WebApi.dll
-C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
