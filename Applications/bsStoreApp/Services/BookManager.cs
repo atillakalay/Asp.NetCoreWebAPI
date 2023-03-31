@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Exceptions;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 
@@ -22,7 +23,12 @@ namespace Services
 
         public Book GetOneBookById(int id, bool trackChanges)
         {
-            return _manager.BookRepository.GetOneBookById(id, false) ?? throw new InvalidOperationException(); _logger.LogInfo($"The book with id:{id} could not found.");
+            var book = _manager.BookRepository.GetOneBookById(id, trackChanges);
+            if (book is null)
+            {
+                throw new BookNotFoundException(id);
+            }
+            return book;
         }
 
         public Book CreateOneBook(Book book)
@@ -37,9 +43,7 @@ namespace Services
             var entity = _manager.BookRepository.GetOneBookById(id, true);
             if (entity is null)
             {
-                string message = $"The book with id:{id} could not found.";
-                _logger.LogInfo(message);
-                throw new Exception(message);
+                throw new BookNotFoundException(id);
             }
 
             if (book is null)
@@ -60,9 +64,7 @@ namespace Services
             var entity = _manager.BookRepository.GetOneBookById(id, false);
             if (entity is null)
             {
-                string message = $"The book with id:{id} could not found.";
-                _logger.LogInfo(message);
-                throw new Exception(message);
+                throw new BookNotFoundException(id);
             }
             else
             {
