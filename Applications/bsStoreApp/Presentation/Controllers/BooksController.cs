@@ -11,7 +11,7 @@ namespace Presentation.Controllers
     {
         private readonly IServiceManager _serviceManager;
 
-        public BooksController(IServiceManager serviceManager)
+        public BooksController(IServiceManager serviceManager, ILoggerService loggerService)
         {
             _serviceManager = serviceManager;
         }

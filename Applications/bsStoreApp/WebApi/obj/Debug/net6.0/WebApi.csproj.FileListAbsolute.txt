@@ -80,3 +80,6 @@ C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\nlog.config
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.dll
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.Extensions.Logging.dll
