@@ -13,11 +13,32 @@ namespace Services
         private readonly ILoggerService _logger;
         private readonly IMapper _mapper;
 
-        public BookManager(IRepositoryManager manager, ILoggerService logger, IMapper mapper)
+        public BookManager(IRepositoryManager manager,
+            ILoggerService logger,
+            IMapper mapper)
         {
             _manager = manager;
             _logger = logger;
             _mapper = mapper;
+        }
+
+        public BookDto CreateOneBook(BookDtoForInsertion bookDto)
+        {
+            var entity = _mapper.Map<Book>(bookDto);
+            _manager.BookRepository.CreateOneBook(entity);
+            _manager.Save();
+            return _mapper.Map<BookDto>(entity);
+        }
+
+        public void DeleteOneBook(int id, bool trackChanges)
+        {
+            // check entity 
+            var entity = _manager.BookRepository.GetOneBookById(id, trackChanges);
+            if (entity is null)
+                throw new BookNotFoundException(id);
+
+            _manager.BookRepository.DeleteOneBook(entity);
+            _manager.Save();
         }
 
         public IEnumerable<BookDto> GetAllBooks(bool trackChanges)
@@ -26,52 +47,47 @@ namespace Services
             return _mapper.Map<IEnumerable<BookDto>>(books);
         }
 
-        public Book GetOneBookById(int id, bool trackChanges)
+        public BookDto GetOneBookById(int id, bool trackChanges)
         {
             var book = _manager.BookRepository.GetOneBookById(id, trackChanges);
             if (book is null)
-            {
                 throw new BookNotFoundException(id);
-            }
-            return book;
+            return _mapper.Map<BookDto>(book);
         }
 
-        public Book CreateOneBook(Book book)
+        public (BookDtoForUpdate bookDtoForUpdate, Book book) GetOneBookForPatch(int id, bool trackChanges)
         {
-            _manager.BookRepository.CreateOneBook(book);
+            var book = _manager.BookRepository.GetOneBookById(id, trackChanges);
+
+            if (book is null)
+                throw new BookNotFoundException(id);
+
+            var bookDtoForUpdate = _mapper.Map<BookDtoForUpdate>(book);
+
+            return (bookDtoForUpdate, book);
+
+        }
+
+        public void SaveChangesForPatch(BookDtoForUpdate bookDtoForUpdate, Book book)
+        {
+            _mapper.Map(bookDtoForUpdate, book);
             _manager.Save();
-            return book;
         }
 
-        public void UpdateOneBook(int id, BookDtoForUpdate bookDto, bool trackChanges)
+        public void UpdateOneBook(int id,
+            BookDtoForUpdate bookDto,
+            bool trackChanges)
         {
-            var entity = _manager.BookRepository.GetOneBookById(id, true);
+            // check entity
+            var entity = _manager.BookRepository.GetOneBookById(id, trackChanges);
+
             if (entity is null)
-            {
                 throw new BookNotFoundException(id);
-            }
 
-            if (bookDto is null)
-                throw new ArgumentNullException(nameof(bookDto));
+            entity = _mapper.Map<Book>(bookDto);
 
-            _mapper.Map<Book>(bookDto);
-            _manager.BookRepository.UpdateOneBook(entity);
+            _manager.BookRepository.Update(entity);
             _manager.Save();
-
-        }
-
-        public void DeleteOneBook(int id, bool trackChanges)
-        {
-            var entity = _manager.BookRepository.GetOneBookById(id, false);
-            if (entity is null)
-            {
-                throw new BookNotFoundException(id);
-            }
-            else
-            {
-                _manager.BookRepository.DeleteOneBook(entity);
-                _manager.Save();
-            }
         }
     }
 }
