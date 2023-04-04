@@ -2,7 +2,7 @@
 {
     public interface IRepositoryManager
     {
-        IBookRepository BookRepository { get; }
-        void Save();
+        IBookRepository Book { get; }
+        Task SaveAsync();
     }
 }
