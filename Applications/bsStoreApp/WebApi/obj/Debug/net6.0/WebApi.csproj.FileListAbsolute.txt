@@ -84,4 +84,4 @@ C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\obj\Debug\net6.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll

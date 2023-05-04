@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EPxD4XpJWrkAmVsmUn8nvs/gzNrla02E92Ftt3O4d291MvkStSmOiPHHnXh+ztAqF0R6Fva28j2pq70qody6OQ==",
+  "dgSpecHash": "0UEj5pWO2/BsJ+AgHdED+3mczZXfytZrpH4G6mXBkh2hBbkpk8kmaMRlOA4/334WYmMuy6WfJRVznCQfjM+aJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Atilla\\AspNetCoreWebApi\\Applications\\bsStoreApp\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,7 @@
     "C:\\Users\\Atilla\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\Atilla\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\Atilla\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\Atilla\\.nuget\\packages\\system.linq.dynamic.core\\1.3.2\\system.linq.dynamic.core.1.3.2.nupkg.sha512",
     "C:\\Users\\Atilla\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\Atilla\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\Atilla\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",
