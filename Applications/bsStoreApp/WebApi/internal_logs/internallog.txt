@@ -175,3 +175,27 @@
 2023-05-07 13:45:09.2635 Info Message Template Auto Format enabled
 2023-05-07 13:45:09.5188 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2023-05-07 13:45:09.6006 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2023-05-07 17:43:49.1365 Info Message Template Auto Format enabled
+2023-05-07 17:43:49.3186 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-07 17:43:49.4618 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2023-05-07 17:57:05.2469 Info Message Template Auto Format enabled
+2023-05-07 17:57:05.4680 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-07 17:57:05.5478 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2023-05-07 18:33:18.4929 Info Message Template Auto Format enabled
+2023-05-07 18:33:18.6887 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-07 18:33:18.7586 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2023-05-07 18:34:03.0921 Info Message Template Auto Format enabled
+2023-05-07 18:34:03.2796 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-07 18:34:03.3621 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2023-05-11 14:02:22.8723 Info Message Template Auto Format enabled
+2023-05-11 14:02:23.1659 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-11 14:02:23.2331 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2023-05-11 14:10:47.6172 Info Message Template Auto Format enabled
+2023-05-11 14:10:47.9782 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-11 14:10:48.0806 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2023-05-11 14:16:34.6504 Info Message Template Auto Format enabled
+2023-05-11 14:16:35.0742 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-11 14:16:35.1974 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
+2023-05-11 14:19:47.1268 Info Message Template Auto Format enabled
+2023-05-11 14:19:47.4155 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-11 14:19:47.5403 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Atilla\AspNetCoreWebApi\Applications\bsStoreApp\WebApi\nlog.config
