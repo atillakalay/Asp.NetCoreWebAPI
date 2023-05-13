@@ -1,0 +1,5 @@
+2023-05-13 12:31:29.9089 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetBooksOptions","Id":null,"CreateAt":"2023-05-13T09:31:29.8693233Z"}
+2023-05-13 12:31:31.6206 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetBooksOptions","Id":null,"CreateAt":"2023-05-13T09:31:31.6205447Z"}
+2023-05-13 12:31:36.0267 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetBooksOptions","Id":null,"CreateAt":"2023-05-13T09:31:36.0267191Z"}
+2023-05-13 12:36:56.1384 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-05-13T09:36:56.1237358Z"}
+2023-05-13 12:38:21.5069 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-05-13T09:38:21.5066568Z"}
