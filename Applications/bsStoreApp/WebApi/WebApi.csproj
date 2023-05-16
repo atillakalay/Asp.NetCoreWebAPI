@@ -7,6 +7,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="AspNetCoreRateLimit" Version="4.0.1" />
 		<PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="6.0.15" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15">
