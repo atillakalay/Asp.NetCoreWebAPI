@@ -7,3 +7,4 @@
 2023-05-16 15:22:54.1022 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-05-16T12:22:54.0951213Z"}
 2023-05-16 15:23:08.7832 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-05-16T12:23:08.7828815Z"}
 2023-05-16 15:23:13.1816 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-05-16T12:23:13.1815847Z"}
+2023-05-16 15:23:58.3277 INFO {"ModelModel":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-05-16T12:23:58.327741Z"}
