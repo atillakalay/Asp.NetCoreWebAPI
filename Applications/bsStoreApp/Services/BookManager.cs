@@ -6,12 +6,12 @@ using Entities.Models;
 using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
-using static Entities.Exceptions.BadRequestException;
 
 namespace Services
 {
     public class BookManager : IBookService
     {
+        private readonly ICategoryService _categoryService;
         private readonly IRepositoryManager _manager;
         private readonly ILoggerService _logger;
         private readonly IMapper _mapper;
@@ -20,16 +20,21 @@ namespace Services
         public BookManager(IRepositoryManager manager,
             ILoggerService logger,
             IMapper mapper,
-            IBookLinks bookLinks)
+            IBookLinks bookLinks,
+            ICategoryService categoryService)
         {
             _manager = manager;
             _logger = logger;
             _mapper = mapper;
             _bookLinks = bookLinks;
+            _categoryService = categoryService;
         }
 
         public async Task<BookDto> CreateOneBookAsync(BookDtoForInsertion bookDto)
         {
+            var category = await _categoryService
+                .GetOneCategoryByIdAsync(bookDto.CategoryId, false);
+
             var entity = _mapper.Map<Book>(bookDto);
             _manager.Book.CreateOneBook(entity);
             await _manager.SaveAsync();
@@ -43,19 +48,19 @@ namespace Services
             await _manager.SaveAsync();
         }
 
-        public async Task<(LinkResponse linkResponse, MetaData metaData)> GetAllBooksAsync(LinkParameters linkParameters, bool trackChanges)
+        public async Task<(LinkResponse linkResponse, MetaData metaData)>
+            GetAllBooksAsync(LinkParameters linkParameters,
+            bool trackChanges)
         {
-            var booksWithMetaData = await _manager.Book.GetAllBooksAsync(linkParameters.BookParameters, trackChanges);
-
             if (!linkParameters.BookParameters.ValidPriceRange)
-            {
-                throw new PriceOutOfRangeBadRequestException();
-            }
+                throw new PriceOutofRangeBadRequestException();
+
+            var booksWithMetaData = await _manager
+                .Book
+                .GetAllBooksAsync(linkParameters.BookParameters, trackChanges);
 
             var booksDto = _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
-
-            var links = _bookLinks.TryGenerateLinks(
-                booksDto,
+            var links = _bookLinks.TryGenerateLinks(booksDto,
                 linkParameters.BookParameters.Fields,
                 linkParameters.HttpContext);
 
@@ -68,12 +73,16 @@ namespace Services
             return books;
         }
 
+        public async Task<IEnumerable<Book>> GetAllBooksWithDetailsAsync(bool trackChanges)
+        {
+            return await _manager
+                .Book
+                .GetAllBooksWithDetailsAsync(trackChanges);
+        }
+
         public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
         {
             var book = await GetOneBookByIdAndCheckExists(id, trackChanges);
-
-            if (book is null)
-                throw new BookNotFoundException(id);
             return _mapper.Map<BookDto>(book);
         }
 

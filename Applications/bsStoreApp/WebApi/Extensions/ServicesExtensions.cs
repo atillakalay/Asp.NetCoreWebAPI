@@ -201,8 +201,8 @@ namespace WebApi.Extensions
                         Contact = new OpenApiContact
                         {
                             Name = "Atilla KALAY",
-                            Email = "atikka.kalay@gmail.com",
-                            Url = new Uri("https://www.atillakalay.com")
+                            Email = "atilla.kalayy@gmail.com",
+                            Url = new Uri("https://www.zafercomert.com")
                         }
                     });
 
@@ -233,6 +233,19 @@ namespace WebApi.Extensions
                     }
                 });
             });
+        }
+
+        public static void RegisterRepositories(this IServiceCollection services)
+        {
+            services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+        }
+
+        public static void RegisterServices(this IServiceCollection services)
+        {
+            services.AddScoped<IBookService, BookManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<IAuthenticationService, AuthenticationManager>();
         }
 
     }
